@@ -1,7 +1,13 @@
 from lib.animal import Animal
 from lib.zoo import Zoo
 
-# code here
+if __name__ == '__main__':
+    print("WELCOME TO THE ZOO! :) let's debug :vibing_potato:")
+
+    SanDiego_Zoo = Zoo('SanDiego_Zoo',"California")
+    print(SanDiego_Zoo.name)
+
+
 
 
 # e.g.  
@@ -15,5 +21,5 @@ from lib.zoo import Zoo
 
 
 # ipdb allows us to stop our code & test stuff
-import ipdb; ipdb.set_trace()
+# import ipdb; ipdb.set_trace()
 print( 'Thanks for visiting the zoo!' )
